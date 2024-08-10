@@ -1,11 +1,7 @@
-# Hack4change_inclusion
-
-
-
-Fraud Detection System
+# Fraud Detection System
 This is a web application built with Streamlit that allows users to explore, analyze, and predict fraudulent transactions. The app includes features like data exploration, model training, fraud prediction, report generation, and a feedback system. It's designed to be user-friendly and provides a secure login mechanism.
 
-Features
+# Features
 1. User Authentication
 Login Page: Users must log in with a username and password to access the features of the app.
 Admin Access: The default credentials are set to admin for both username and password.
@@ -22,7 +18,7 @@ Transaction Input: Users can input transaction details like balanceOrigDiff to p
 Prediction Output: The app predicts if the transaction is fraudulent and displays the probability of the prediction.
 Helpline Support: If a transaction is predicted as fraud, users can directly call a helpline number provided.
 5. Feedback System
-Submit Feedback: Users can provide feedback through the app, which opens their default email client with the feedback pre-filled.
+Submit Feedback: Users can provide feedback through the app, which opens their default email client with pre-filled feedback.
 Installation
 1. Clone the Repository
 bash
@@ -32,42 +28,32 @@ cd fraud-detection-system
 2. Install Dependencies
 Make sure you have Python 3.8 or higher installed. Install the required Python packages using:
 
-bash
-Copy code
-pip install -r requirements.txt
-3. Run the App
-You can start the Streamlit app by running:
 
-bash
-Copy code
-streamlit run app.py
-This will open a new tab in your browser with the application running.
-
-Usage
-Login
+# Usage
+## Login
 Use the username admin and password admin to log in.
-Data Explorer
+## Data Explorer
 After logging in, navigate to the "Data Explorer" section using the sidebar.
 View and analyze the dataset with visualizations.
-Report Generator
+## Report Generator
 Generate and download model performance reports, including a detailed PDF.
-Predict Fraud
+## Predict Fraud
 Enter transaction details and get instant predictions on whether the transaction is fraudulent.
 If the transaction is predicted as fraud, you can call the helpline directly from the app.
-Feedback
+## Feedback
 Provide feedback using the text area provided. This will open your email client with the feedback message ready to send.
 Customization
-Dataset
+## Dataset
 Replace the Fraud.csv file in the root directory with your dataset. Ensure that the structure of the dataset matches the columns used in the app (balanceOrigDiff, amount, and isFraud).
 Authentication
-Modify the authentication logic to integrate with a more secure system if needed. The current setup is a simple hardcoded username and password.
+Modify the authentication logic to integrate with a more secure system if needed. The current setup is a simple hardcoded username and password, which is admin & admin.
 Model
 The Logistic Regression model is used by default. You can experiment with other models by modifying the train_model() function.
 Code Overview
-app.py: The main script that runs the Streamlit app.
+fraud_detection.py: The main script that runs the Streamlit app.
 Fraud.csv: The dataset used for training the model. Replace this with your dataset.
 requirements.txt: Lists all the dependencies required to run the app.
-Dependencies
+## Dependencies
 Python 3.8+
 Streamlit
 Pandas
@@ -79,9 +65,7 @@ FPDF (for PDF generation)
 Contribution
 Feel free to fork this repository and submit pull requests. Any enhancements or bug fixes are welcome!
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+## Contact
 For any inquiries or support, contact the project maintainer at chawlapc.619@gmail.com.
 
