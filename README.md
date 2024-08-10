@@ -1,6 +1,17 @@
 # Fraud Detection System
 This is a web application built with Streamlit that allows users to explore, analyze, and predict fraudulent transactions. The app includes features like data exploration, model training, fraud prediction, report generation, and a feedback system. It's designed to be user-friendly and provides a secure login mechanism.
 
+
+
+
+## OUTPUT
+![image](https://github.com/user-attachments/assets/dc4b5ce7-43ef-4bbe-af9b-eb5237b35c80)
+![image](https://github.com/user-attachments/assets/11db54bc-0216-4358-8907-ac16d02a12d6)
+![image](https://github.com/user-attachments/assets/d2437017-db14-4f8f-a327-2a6ffcd444b2)
+
+![image](https://github.com/user-attachments/assets/10019fbf-e6da-41f2-8f20-478751cee705)
+
+
 # Features
 1. User Authentication
 Login Page: Users must log in with a username and password to access the features of the app.
@@ -16,17 +27,17 @@ Download Reports: Users can download the classification report as a CSV file or 
 4. Predict Fraud
 Transaction Input: Users can input transaction details like balanceOrigDiff to predict whether a transaction is fraudulent or not.
 Prediction Output: The app predicts if the transaction is fraudulent and displays the probability of the prediction.
-Helpline Support: If a transaction is predicted as fraud, users can directly call a helpline number provided.
+Helpline Support: If a transaction is predicted as fraud, users can directly call the helpline number provided.
 5. Feedback System
 Submit Feedback: Users can provide feedback through the app, which opens their default email client with pre-filled feedback.
 Installation
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/yourusername/fraud-detection-system.git
+git clone [https://github.com/yourusername/fraud-detection-system.git](https://github.com/Prayag-Chawla/Hack4change_inclusion/blob/Main)
 cd fraud-detection-system
 2. Install Dependencies
-Make sure you have Python 3.8 or higher installed. Install the required Python packages using:
+Make sure you have installed Python 3.8 or higher. Install the required Python packages using:
 
 
 # Usage
